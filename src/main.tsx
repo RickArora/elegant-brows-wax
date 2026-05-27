@@ -4,6 +4,7 @@ import { routeTree } from './routeTree.gen'
 
 const router = createRouter({
   routeTree,
+  basepath: '/elegant-brows-wax',
   defaultPreload: 'intent',
   scrollRestoration: true,
 })

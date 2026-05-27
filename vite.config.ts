@@ -4,6 +4,7 @@ import viteReact from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
+  base: '/elegant-brows-wax/',
   plugins: [
     tailwindcss(),
     tanstackRouter({ target: 'react', autoCodeSplitting: true }),
