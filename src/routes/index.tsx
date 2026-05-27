@@ -4,6 +4,7 @@ import { ArrowRight, Phone, MapPin, Clock, Star } from 'lucide-react'
 import { BUSINESS } from '../lib/constants'
 import { featuredServices, servicesByCategory } from '../lib/services'
 import CTABand from '../components/site/CTABand'
+import heroHome from '../assets/hero-home.svg'
 
 export const Route = createFileRoute('/')({
   head: () => ({
@@ -25,12 +26,15 @@ function HomePage() {
         className="relative min-h-screen flex items-center justify-center hero-grain overflow-hidden"
         style={{ background: 'linear-gradient(135deg, oklch(0.14 0.04 68) 0%, oklch(0.22 0.07 73) 50%, oklch(0.18 0.05 75) 100%)' }}
       >
-        <div className="absolute inset-0 dot-pattern opacity-15" />
-        <div
-          className="absolute right-[-10%] top-[-10%] w-[60vw] h-[60vw] rounded-full opacity-[0.04]"
-          style={{ background: 'radial-gradient(circle, oklch(0.65 0.13 75) 0%, transparent 70%)' }}
+        <div className="absolute inset-0 dot-pattern opacity-10" />
+        {/* SVG illustration — right panel */}
+        <img
+          src={heroHome}
+          alt=""
+          aria-hidden="true"
+          className="absolute right-0 top-0 h-full w-auto max-w-[55vw] object-contain object-right pointer-events-none select-none opacity-80"
         />
-        <div className="relative max-w-7xl mx-auto px-6 lg:px-10 py-32 text-center">
+        <div className="relative max-w-7xl mx-auto px-6 lg:px-10 py-32 w-full lg:text-left">
           <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7 }}>
             <div className="flex items-center justify-center gap-3 mb-8">
               <div className="w-10 h-10 rounded-full border-2 border-primary flex items-center justify-center text-sm font-semibold tracking-wider text-primary font-display">
@@ -43,10 +47,10 @@ function HomePage() {
               <span className="text-primary">Brows</span><br />
               & Wax
             </h1>
-            <p className="font-display text-xl lg:text-2xl text-ivory/60 italic mb-12 max-w-lg mx-auto">
+            <p className="font-display text-xl lg:text-2xl text-ivory/60 italic mb-12 max-w-lg">
               {BUSINESS.tagline}
             </p>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <div className="flex flex-col sm:flex-row items-center lg:items-start justify-center lg:justify-start gap-4">
               <Link
                 to="/book"
                 className="flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground text-sm tracking-widest uppercase font-medium hover:bg-gold-dark transition-colors rounded-sm"

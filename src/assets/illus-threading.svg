@@ -1,0 +1,72 @@
+<svg viewBox="0 0 600 500" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <radialGradient id="th-glow" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#C9A227" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#C9A227" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="300" cy="220" rx="200" ry="120" fill="url(#th-glow)"/>
+
+  <!-- ── BROW ARCH (hero element) ── -->
+  <path d="M 70 270 C 130 175 210 135 300 130 C 390 125 470 165 530 260"
+        stroke="#C9A227" stroke-width="4" stroke-linecap="round" opacity="0.95"/>
+  <!-- Arch highlight -->
+  <path d="M 72 274 C 132 179 212 139 302 134 C 392 129 472 169 531 264"
+        stroke="#F0D060" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+
+  <!-- ── THREAD LOOP ── (the actual threading instrument) -->
+  <!-- Thread coming from upper left, crossing the brow, to upper right -->
+  <path d="M 60 100 C 100 140 160 170 200 185 C 240 200 250 210 260 230
+           C 270 250 280 265 300 270 C 320 275 340 265 360 245
+           C 380 225 400 205 440 192 C 480 179 530 165 570 140"
+        stroke="#E8C84A" stroke-width="1.8" stroke-linecap="round" opacity="0.55"/>
+  <!-- Return thread -->
+  <path d="M 60 108 C 100 148 162 178 202 193 C 242 208 252 218 262 238
+           C 272 258 284 273 304 278 C 324 283 344 273 362 253
+           C 382 233 402 213 442 200 C 482 187 534 172 574 148"
+        stroke="#C9A227" stroke-width="1.2" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- Twisted thread section at brow -->
+  <line x1="240" y1="200" x2="258" y2="220" stroke="#C9A227" stroke-width="1" opacity="0.5"/>
+  <line x1="256" y1="200" x2="244" y2="220" stroke="#C9A227" stroke-width="1" opacity="0.5"/>
+  <line x1="280" y1="205" x2="298" y2="225" stroke="#C9A227" stroke-width="1" opacity="0.5"/>
+  <line x1="296" y1="205" x2="282" y2="225" stroke="#C9A227" stroke-width="1" opacity="0.5"/>
+  <line x1="312" y1="205" x2="326" y2="225" stroke="#C9A227" stroke-width="1" opacity="0.5"/>
+  <line x1="328" y1="205" x2="314" y2="225" stroke="#C9A227" stroke-width="1" opacity="0.5"/>
+  <line x1="345" y1="200" x2="356" y2="220" stroke="#C9A227" stroke-width="1" opacity="0.5"/>
+  <line x1="358" y1="200" x2="347" y2="220" stroke="#C9A227" stroke-width="1" opacity="0.5"/>
+
+  <!-- ── PRECISION MARKS (indicate individual hairs) ── -->
+  <line x1="150" y1="240" x2="150" y2="255" stroke="#C9A227" stroke-width="0.8" opacity="0.45"/>
+  <line x1="168" y1="234" x2="168" y2="249" stroke="#C9A227" stroke-width="0.8" opacity="0.45"/>
+  <line x1="186" y1="228" x2="186" y2="243" stroke="#C9A227" stroke-width="0.8" opacity="0.45"/>
+  <line x1="205" y1="224" x2="205" y2="239" stroke="#C9A227" stroke-width="0.8" opacity="0.45"/>
+  <line x1="225" y1="220" x2="225" y2="235" stroke="#C9A227" stroke-width="0.8" opacity="0.45"/>
+  <line x1="376" y1="220" x2="376" y2="235" stroke="#C9A227" stroke-width="0.8" opacity="0.45"/>
+  <line x1="396" y1="224" x2="396" y2="239" stroke="#C9A227" stroke-width="0.8" opacity="0.45"/>
+  <line x1="415" y1="228" x2="415" y2="243" stroke="#C9A227" stroke-width="0.8" opacity="0.45"/>
+  <line x1="434" y1="233" x2="434" y2="248" stroke="#C9A227" stroke-width="0.8" opacity="0.45"/>
+  <line x1="452" y1="240" x2="452" y2="255" stroke="#C9A227" stroke-width="0.8" opacity="0.45"/>
+
+  <!-- ── BROW MAPPING DOTS ── -->
+  <circle cx="300" cy="130" r="3" fill="#C9A227" opacity="0.7"/>
+  <circle cx="160" cy="165" r="2.5" fill="#C9A227" opacity="0.6"/>
+  <circle cx="440" cy="165" r="2.5" fill="#C9A227" opacity="0.6"/>
+  <circle cx="90" cy="240" r="2" fill="#C9A227" opacity="0.5"/>
+  <circle cx="510" cy="240" r="2" fill="#C9A227" opacity="0.5"/>
+
+  <!-- Start dot • End dot for mapping line -->
+  <line x1="92" y1="248" x2="508" y2="248" stroke="#C9A227" stroke-width="0.6" stroke-dasharray="3 6" opacity="0.25"/>
+
+  <!-- ── SPARKLES ── -->
+  <path d="M 520 100 L 522 93 L 524 100 L 531 102 L 524 104 L 522 111 L 520 104 L 513 102 Z" fill="#C9A227" opacity="0.55"/>
+  <path d="M 80 110 L 82 105 L 84 110 L 89 112 L 84 114 L 82 119 L 80 114 L 75 112 Z" fill="#E8C84A" opacity="0.5"/>
+  <circle cx="555" cy="135" r="2" fill="#C9A227" opacity="0.5"/>
+  <circle cx="48" cy="148" r="2" fill="#C9A227" opacity="0.45"/>
+
+  <!-- ── BASELINE ── -->
+  <line x1="100" y1="400" x2="500" y2="400" stroke="#C9A227" stroke-width="0.6" opacity="0.2"/>
+  <line x1="100" y1="400" x2="100" y2="390" stroke="#C9A227" stroke-width="0.8" opacity="0.3"/>
+  <line x1="500" y1="400" x2="500" y2="390" stroke="#C9A227" stroke-width="0.8" opacity="0.3"/>
+</svg>

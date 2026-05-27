@@ -4,6 +4,15 @@ import { ChevronDown, Check, X, ArrowRight } from 'lucide-react'
 import { motion } from 'framer-motion'
 import { type ServiceData, allServices } from '../../lib/services'
 import CTABand from './CTABand'
+import illustThreading from '../../assets/illus-threading.svg'
+import illustWaxing from '../../assets/illus-waxing.svg'
+import illustFacial from '../../assets/illus-facial.svg'
+
+const categoryIllus: Record<string, string> = {
+  threading: illustThreading,
+  waxing: illustWaxing,
+  facial: illustFacial,
+}
 
 interface ServicePageProps {
   service: ServiceData
@@ -28,7 +37,13 @@ export default function ServicePage({ service }: ServicePageProps) {
         className="relative pt-32 pb-24 lg:pt-48 lg:pb-32 hero-grain overflow-hidden"
         style={{ background: service.heroGradient }}
       >
-        <div className="absolute inset-0 dot-pattern opacity-20" />
+        <div className="absolute inset-0 dot-pattern opacity-10" />
+        <img
+          src={categoryIllus[service.category]}
+          alt=""
+          aria-hidden="true"
+          className="absolute right-0 top-0 h-full w-auto max-w-[50vw] object-contain object-right pointer-events-none select-none opacity-60 lg:opacity-70"
+        />
         <div className="relative max-w-7xl mx-auto px-6 lg:px-10">
           <motion.div
             initial={{ opacity: 0, y: 24 }}

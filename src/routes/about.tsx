@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import { ArrowRight, Heart, Sparkles, Shield } from 'lucide-react'
 import { BUSINESS } from '../lib/constants'
 import CTABand from '../components/site/CTABand'
+import heroAbout from '../assets/hero-about.svg'
 
 export const Route = createFileRoute('/about')({
   head: () => ({
@@ -23,7 +24,9 @@ function AboutPage() {
         className="pt-32 pb-24 lg:pt-48 lg:pb-32 hero-grain relative overflow-hidden"
         style={{ background: 'linear-gradient(135deg, oklch(0.88 0.05 355) 0%, oklch(0.95 0.025 85) 100%)' }}
       >
-        <div className="absolute inset-0 dot-pattern opacity-20" />
+        <div className="absolute inset-0 dot-pattern opacity-15" />
+        <img src={heroAbout} alt="" aria-hidden="true"
+          className="absolute right-0 top-0 h-full w-auto max-w-[50vw] object-contain object-right pointer-events-none select-none opacity-50" />
         <div className="relative max-w-7xl mx-auto px-6 lg:px-10">
           <p className="text-xs tracking-[0.3em] uppercase text-primary mb-5">Our Story</p>
           <h1 className="font-display text-5xl lg:text-7xl text-foreground leading-tight mb-6 max-w-2xl">

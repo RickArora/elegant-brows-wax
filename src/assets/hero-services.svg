@@ -1,0 +1,97 @@
+<svg viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <radialGradient id="sv-g1" cx="20%" cy="50%" r="35%">
+      <stop offset="0%" stop-color="#C9A227" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#C9A227" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sv-g2" cx="50%" cy="50%" r="35%">
+      <stop offset="0%" stop-color="#C9A227" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#C9A227" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sv-g3" cx="80%" cy="50%" r="35%">
+      <stop offset="0%" stop-color="#C9A227" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#C9A227" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Glows -->
+  <ellipse cx="180" cy="250" rx="150" ry="130" fill="url(#sv-g1)"/>
+  <ellipse cx="450" cy="250" rx="150" ry="130" fill="url(#sv-g2)"/>
+  <ellipse cx="720" cy="250" rx="150" ry="130" fill="url(#sv-g3)"/>
+
+  <!-- Dividers between sections -->
+  <line x1="318" y1="80" x2="318" y2="420" stroke="#C9A227" stroke-width="0.6" opacity="0.2"/>
+  <line x1="582" y1="80" x2="582" y2="420" stroke="#C9A227" stroke-width="0.6" opacity="0.2"/>
+
+  <!-- ── SECTION 1: THREADING ── -->
+  <!-- Brow arch -->
+  <path d="M 55 220 C 95 158 138 135 180 132 C 222 129 265 152 305 218"
+        stroke="#C9A227" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+  <path d="M 57 224 C 97 162 140 139 182 136 C 224 133 267 156 307 222"
+        stroke="#E8C84A" stroke-width="1" stroke-linecap="round" opacity="0.3"/>
+  <!-- Thread line -->
+  <path d="M 40 160 C 80 175 120 185 160 188 C 200 191 220 200 238 220
+           C 256 240 268 258 300 265"
+        stroke="#E8C84A" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+  <!-- Precision marks -->
+  <line x1="90" y1="238" x2="90" y2="250" stroke="#C9A227" stroke-width="0.8" opacity="0.5"/>
+  <line x1="108" y1="230" x2="108" y2="242" stroke="#C9A227" stroke-width="0.8" opacity="0.5"/>
+  <line x1="126" y1="224" x2="126" y2="236" stroke="#C9A227" stroke-width="0.8" opacity="0.5"/>
+  <line x1="145" y1="220" x2="145" y2="232" stroke="#C9A227" stroke-width="0.8" opacity="0.5"/>
+  <line x1="215" y1="220" x2="215" y2="232" stroke="#C9A227" stroke-width="0.8" opacity="0.5"/>
+  <line x1="234" y1="224" x2="234" y2="236" stroke="#C9A227" stroke-width="0.8" opacity="0.5"/>
+  <line x1="253" y1="230" x2="253" y2="242" stroke="#C9A227" stroke-width="0.8" opacity="0.5"/>
+  <line x1="271" y1="238" x2="271" y2="250" stroke="#C9A227" stroke-width="0.8" opacity="0.5"/>
+  <!-- Label -->
+  <line x1="80" y1="360" x2="280" y2="360" stroke="#C9A227" stroke-width="0.6" opacity="0.25"/>
+
+  <!-- ── SECTION 2: WAXING ── -->
+  <!-- Spatula -->
+  <rect x="428" y="120" width="14" height="100" rx="7" fill="#C9A227" opacity="0.4" transform="rotate(20 435 170)"/>
+  <!-- Wax pool -->
+  <path d="M 355 290 C 378 278 408 272 450 270 C 492 268 522 274 545 286
+           C 530 298 500 305 450 306 C 400 307 372 300 355 290 Z"
+        fill="#C9A227" opacity="0.12" stroke="#C9A227" stroke-width="1.5" opacity="0.4"/>
+  <!-- Wax edge highlight -->
+  <path d="M 355 290 C 378 278 408 272 450 270 C 492 268 522 274 545 286"
+        stroke="#E8C84A" stroke-width="1.2" stroke-linecap="round" opacity="0.35"/>
+  <!-- Drips -->
+  <path d="M 430 222 C 428 230 426 240 428 246 C 430 252 433 252 433 246 C 434 240 432 230 430 222 Z"
+        fill="#C9A227" opacity="0.3"/>
+  <path d="M 448 218 C 446 227 445 237 447 244 C 449 250 452 250 452 244 C 453 237 451 227 448 218 Z"
+        fill="#C9A227" opacity="0.25"/>
+  <!-- Smooth wave -->
+  <path d="M 360 340 C 390 328 420 332 450 330 C 480 328 510 322 540 332"
+        stroke="#C9A227" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
+  <!-- Sparkle -->
+  <path d="M 560 175 L 562 170 L 564 175 L 569 177 L 564 179 L 562 184 L 560 179 L 555 177 Z"
+        fill="#C9A227" opacity="0.5"/>
+
+  <!-- ── SECTION 3: FACIALS ── -->
+  <!-- Concentric glow rings -->
+  <circle cx="720" cy="245" r="105" stroke="#C9A227" stroke-width="0.5" opacity="0.1"/>
+  <circle cx="720" cy="245" r="88"  stroke="#C9A227" stroke-width="0.7" opacity="0.13"/>
+  <circle cx="720" cy="245" r="72"  stroke="#C9A227" stroke-width="0.9" opacity="0.17"/>
+  <circle cx="720" cy="245" r="58"  stroke="#C9A227" stroke-width="1.1" opacity="0.22"/>
+  <circle cx="720" cy="245" r="44"  stroke="#C9A227" stroke-width="1.4" opacity="0.28"/>
+  <!-- Face oval -->
+  <ellipse cx="720" cy="250" rx="52" ry="68" stroke="#C9A227" stroke-width="1.8" opacity="0.55"/>
+  <!-- Closed eyes -->
+  <path d="M 695 228 C 703 222 712 222 720 228" stroke="#C9A227" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <path d="M 720 228 C 728 222 737 222 745 228" stroke="#C9A227" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <!-- Brows -->
+  <path d="M 692 215 C 700 208 710 207 718 210" stroke="#C9A227" stroke-width="2" stroke-linecap="round" opacity="0.65"/>
+  <path d="M 722 210 C 730 207 740 208 748 215" stroke="#C9A227" stroke-width="2" stroke-linecap="round" opacity="0.65"/>
+  <!-- Serum drops -->
+  <path d="M 720 152 C 718 160 716 170 718 176 C 720 181 722 181 722 176 C 723 170 721 160 720 152 Z"
+        fill="#C9A227" opacity="0.35"/>
+  <path d="M 706 158 C 704 164 703 172 705 177 C 706 181 709 181 709 177 C 710 172 708 165 706 158 Z"
+        fill="#C9A227" opacity="0.25"/>
+  <!-- Stars (radiance) -->
+  <path d="M 798 175 L 801 168 L 804 175 L 811 178 L 804 181 L 801 188 L 798 181 L 791 178 Z"
+        fill="#C9A227" opacity="0.5"/>
+  <path d="M 650 170 L 652 165 L 654 170 L 659 172 L 654 174 L 652 179 L 650 174 L 645 172 Z"
+        fill="#E8C84A" opacity="0.45"/>
+  <circle cx="820" cy="215" r="2" fill="#C9A227" opacity="0.45"/>
+  <circle cx="632" cy="215" r="2" fill="#C9A227" opacity="0.45"/>
+</svg>

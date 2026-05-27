@@ -1,0 +1,79 @@
+<svg viewBox="0 0 600 500" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <radialGradient id="wx-glow" cx="50%" cy="55%" r="45%">
+      <stop offset="0%" stop-color="#C9A227" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#C9A227" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wx-spatula" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8C84A" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#C9A227" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="300" cy="280" rx="210" ry="150" fill="url(#wx-glow)"/>
+
+  <!-- ── WAX SPATULA ── -->
+  <!-- Handle -->
+  <rect x="355" y="80" width="18" height="130" rx="9"
+        fill="#C9A227" opacity="0.55" transform="rotate(30 364 145)"/>
+  <!-- Spatula head -->
+  <path d="M 375 190 C 385 195 392 210 390 230 C 388 250 376 260 362 258
+           C 348 256 340 244 342 224 C 344 204 355 188 375 190 Z"
+        fill="url(#wx-spatula)" opacity="0.7"/>
+  <!-- Wax on spatula (drip effect) -->
+  <path d="M 362 258 C 356 270 354 285 358 295 C 360 302 363 305 362 295"
+        stroke="#C9A227" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+  <path d="M 368 260 C 364 275 363 292 367 300" stroke="#E8C84A" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- ── WAX POOL ── (smooth spreading wax on skin) -->
+  <path d="M 120 310 C 160 295 210 288 270 285 C 330 282 380 285 420 295
+           C 460 305 490 318 500 332 C 490 345 460 352 420 355
+           C 380 358 330 358 270 355 C 210 352 160 345 120 335
+           C 100 328 105 318 120 310 Z"
+        fill="#C9A227" opacity="0.12" stroke="#C9A227" stroke-width="1.5" opacity="0.4"/>
+  <!-- Wax edge shimmer -->
+  <path d="M 120 310 C 160 295 210 288 270 285 C 330 282 380 285 420 295 C 460 305 490 318 500 332"
+        stroke="#E8C84A" stroke-width="1.2" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- ── SMOOTH SKIN WAVES ── (before/after contrast) -->
+  <!-- Before - subtle fine lines -->
+  <path d="M 140 250 C 175 245 215 243 255 244 C 295 245 330 248 360 250"
+        stroke="#C9A227" stroke-width="0.8" opacity="0.25"/>
+  <path d="M 148 260 C 183 255 222 253 262 254" stroke="#C9A227" stroke-width="0.6" opacity="0.2"/>
+  <path d="M 155 270 C 190 265 228 263 268 264" stroke="#C9A227" stroke-width="0.6" opacity="0.2"/>
+
+  <!-- After (right side) - smooth, no lines -->
+  <path d="M 390 250 C 420 250 448 252 475 255" stroke="#E8C84A" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- ── SMOOTH WAVE FORM ── (large decorative element) -->
+  <path d="M 60 380 C 120 350 180 365 240 355 C 300 345 360 320 420 330
+           C 480 340 530 365 560 375"
+        stroke="#C9A227" stroke-width="2" stroke-linecap="round" opacity="0.35"/>
+  <path d="M 60 395 C 120 365 180 380 240 370 C 300 360 360 335 420 345
+           C 480 355 530 380 560 390"
+        stroke="#C9A227" stroke-width="1.2" stroke-linecap="round" opacity="0.2"/>
+
+  <!-- ── WAX DRIP DROPS ── -->
+  <!-- Drop 1 -->
+  <path d="M 185 195 C 183 200 180 210 182 218 C 184 226 190 228 192 218 C 194 208 191 200 185 195 Z"
+        fill="#C9A227" opacity="0.35"/>
+  <!-- Drop 2 -->
+  <path d="M 215 185 C 213 191 211 202 213 210 C 215 218 220 219 221 210 C 222 201 220 192 215 185 Z"
+        fill="#C9A227" opacity="0.28"/>
+  <!-- Drop 3 (small) -->
+  <path d="M 200 210 C 199 213 198 218 199 221 C 200 224 203 224 203 221 C 204 218 202 214 200 210 Z"
+        fill="#E8C84A" opacity="0.35"/>
+
+  <!-- ── SPARKLES ── -->
+  <path d="M 100 140 L 103 132 L 106 140 L 114 143 L 106 146 L 103 154 L 100 146 L 92 143 Z"
+        fill="#C9A227" opacity="0.5"/>
+  <path d="M 500 120 L 502 115 L 504 120 L 509 122 L 504 124 L 502 129 L 500 124 L 495 122 Z"
+        fill="#E8C84A" opacity="0.45"/>
+  <circle cx="530" cy="160" r="2" fill="#C9A227" opacity="0.45"/>
+  <circle cx="75" cy="175" r="2" fill="#C9A227" opacity="0.4"/>
+  <circle cx="510" cy="145" r="1.5" fill="#E8C84A" opacity="0.4"/>
+
+  <!-- ── GEOMETRIC CORNER ── -->
+  <path d="M 550 430 L 570 430 L 570 410" stroke="#C9A227" stroke-width="1" opacity="0.3"/>
+  <path d="M 50 430 L 30 430 L 30 410" stroke="#C9A227" stroke-width="1" opacity="0.3"/>
+</svg>

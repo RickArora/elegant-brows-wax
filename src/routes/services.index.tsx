@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import { ArrowRight } from 'lucide-react'
 import { allServices, servicesByCategory } from '../lib/services'
 import CTABand from '../components/site/CTABand'
+import heroServices from '../assets/hero-services.svg'
 
 export const Route = createFileRoute('/services/')({
   head: () => ({
@@ -49,10 +50,12 @@ function ServicesPage() {
     <main>
       {/* Hero */}
       <section
-        className="pt-32 pb-20 lg:pt-48 lg:pb-28 hero-grain"
+        className="pt-32 pb-20 lg:pt-48 lg:pb-28 hero-grain relative overflow-hidden"
         style={{ background: 'linear-gradient(135deg, oklch(0.14 0.04 68) 0%, oklch(0.22 0.07 73) 100%)' }}
       >
-        <div className="absolute inset-0 dot-pattern opacity-15" />
+        <div className="absolute inset-0 dot-pattern opacity-10" />
+        <img src={heroServices} alt="" aria-hidden="true"
+          className="absolute right-0 top-0 h-full w-full object-contain object-right pointer-events-none select-none opacity-55" />
         <div className="relative max-w-7xl mx-auto px-6 lg:px-10">
           <p className="text-xs tracking-[0.3em] uppercase text-primary mb-5">What We Offer</p>
           <h1 className="font-display text-5xl lg:text-7xl text-ivory leading-tight mb-6 max-w-2xl">

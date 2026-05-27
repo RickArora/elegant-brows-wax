@@ -1,0 +1,112 @@
+<svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <radialGradient id="fc-glow" cx="50%" cy="46%" r="45%">
+      <stop offset="0%" stop-color="#C9A227" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#C9A227" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="fc-inner" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C9A227" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#C9A227" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Radiant glow rings (facial glow effect) -->
+  <circle cx="300" cy="270" r="220" stroke="#C9A227" stroke-width="0.5" opacity="0.08"/>
+  <circle cx="300" cy="270" r="185" stroke="#C9A227" stroke-width="0.6" opacity="0.1"/>
+  <circle cx="300" cy="270" r="155" stroke="#C9A227" stroke-width="0.8" opacity="0.13"/>
+  <circle cx="300" cy="270" r="128" stroke="#C9A227" stroke-width="1" opacity="0.16"/>
+  <circle cx="300" cy="270" r="102" stroke="#C9A227" stroke-width="1.2" opacity="0.2"/>
+  <circle cx="300" cy="270" r="78" fill="url(#fc-inner)"/>
+  <circle cx="300" cy="270" r="78" stroke="#C9A227" stroke-width="1.5" opacity="0.25"/>
+
+  <!-- Central glow -->
+  <circle cx="300" cy="270" r="220" fill="url(#fc-glow)"/>
+
+  <!-- ── FACE OVAL ── -->
+  <ellipse cx="300" cy="300" rx="145" ry="185"
+           stroke="#C9A227" stroke-width="2" opacity="0.6"/>
+  <!-- Cheekbone highlight curves -->
+  <path d="M 170 270 C 175 240 188 220 210 210"
+        stroke="#E8C84A" stroke-width="1.2" stroke-linecap="round" opacity="0.35"/>
+  <path d="M 430 270 C 425 240 412 220 390 210"
+        stroke="#E8C84A" stroke-width="1.2" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- ── FACIAL FEATURES (minimal) ── -->
+  <!-- Brow arches -->
+  <path d="M 235 200 C 255 188 272 185 290 188"
+        stroke="#C9A227" stroke-width="2.2" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 365 200 C 345 188 328 185 310 188"
+        stroke="#C9A227" stroke-width="2.2" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Eyes (closed, as in a facial) -->
+  <path d="M 238 222 C 255 215 272 215 288 222"
+        stroke="#C9A227" stroke-width="1.8" stroke-linecap="round" opacity="0.55"/>
+  <path d="M 312 222 C 328 215 345 215 362 222"
+        stroke="#C9A227" stroke-width="1.8" stroke-linecap="round" opacity="0.55"/>
+  <!-- Lashes -->
+  <line x1="250" y1="219" x2="248" y2="211" stroke="#C9A227" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+  <line x1="263" y1="215" x2="262" y2="207" stroke="#C9A227" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+  <line x1="276" y1="214" x2="276" y2="206" stroke="#C9A227" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+  <line x1="350" y1="219" x2="352" y2="211" stroke="#C9A227" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+  <line x1="337" y1="215" x2="338" y2="207" stroke="#C9A227" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+  <line x1="324" y1="214" x2="324" y2="206" stroke="#C9A227" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+
+  <!-- Nose bridge -->
+  <path d="M 295 232 C 290 258 288 280 292 295 C 296 308 304 308 308 295 C 312 280 310 258 305 232"
+        stroke="#C9A227" stroke-width="0.8" stroke-linecap="round" opacity="0.3"/>
+
+  <!-- Lips (soft, closed) -->
+  <path d="M 272 358 C 285 350 300 348 328 358"
+        stroke="#C9A227" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+  <path d="M 272 358 C 285 368 300 371 328 358"
+        stroke="#C9A227" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- ── SERUM DROPLETS (facial product) ── -->
+  <!-- Droplet cascade from top -->
+  <path d="M 300 80 C 298 92 295 108 298 120 C 300 130 304 130 304 120 C 305 108 302 92 300 80 Z"
+        fill="#C9A227" opacity="0.4"/>
+  <path d="M 280 88 C 278 97 276 108 278 116 C 280 122 283 122 283 116 C 284 107 282 97 280 88 Z"
+        fill="#C9A227" opacity="0.28"/>
+  <path d="M 320 88 C 318 97 316 108 318 116 C 320 122 323 122 323 116 C 324 107 322 97 320 88 Z"
+        fill="#C9A227" opacity="0.28"/>
+
+  <!-- ── SHEET MASK EDGE (subtle) ── -->
+  <path d="M 175 175 C 185 160 210 150 240 148"
+        stroke="#C9A227" stroke-width="0.8" stroke-dasharray="3 5" opacity="0.2"/>
+  <path d="M 425 175 C 415 160 390 150 360 148"
+        stroke="#C9A227" stroke-width="0.8" stroke-dasharray="3 5" opacity="0.2"/>
+
+  <!-- ── SPARKLES (radiance) ── -->
+  <!-- 4-point stars -->
+  <path d="M 145 155 L 148 147 L 151 155 L 159 158 L 151 161 L 148 169 L 145 161 L 137 158 Z"
+        fill="#C9A227" opacity="0.55"/>
+  <path d="M 455 155 L 457 149 L 459 155 L 465 157 L 459 159 L 457 165 L 455 159 L 449 157 Z"
+        fill="#E8C84A" opacity="0.5"/>
+  <!-- Small dots -->
+  <circle cx="168" cy="195" r="2.5" fill="#C9A227" opacity="0.5"/>
+  <circle cx="432" cy="195" r="2.5" fill="#C9A227" opacity="0.5"/>
+  <circle cx="155" cy="215" r="1.5" fill="#E8C84A" opacity="0.45"/>
+  <circle cx="445" cy="215" r="1.5" fill="#E8C84A" opacity="0.45"/>
+  <circle cx="300" cy="65" r="2" fill="#C9A227" opacity="0.5"/>
+  <circle cx="284" cy="72" r="1.2" fill="#E8C84A" opacity="0.4"/>
+  <circle cx="316" cy="72" r="1.2" fill="#E8C84A" opacity="0.4"/>
+
+  <!-- ── BOTANICAL ACCENTS ── -->
+  <!-- Left leaf -->
+  <path d="M 100 430 C 80 410 75 385 85 368 C 92 388 98 412 100 430 Z"
+        fill="#C9A227" opacity="0.12" stroke="#C9A227" stroke-width="0.8" opacity="0.2"/>
+  <path d="M 120 415 C 95 398 88 372 100 358 C 106 378 116 400 120 415 Z"
+        fill="#C9A227" opacity="0.10" stroke="#C9A227" stroke-width="0.8" opacity="0.18"/>
+  <!-- Stem -->
+  <path d="M 100 430 C 105 410 112 388 120 372" stroke="#C9A227" stroke-width="1.2" stroke-linecap="round" opacity="0.3"/>
+  <!-- Right leaf -->
+  <path d="M 500 430 C 520 410 525 385 515 368 C 508 388 502 412 500 430 Z"
+        fill="#C9A227" opacity="0.12" stroke="#C9A227" stroke-width="0.8" opacity="0.2"/>
+  <path d="M 480 415 C 505 398 512 372 500 358 C 494 378 484 400 480 415 Z"
+        fill="#C9A227" opacity="0.10" stroke="#C9A227" stroke-width="0.8" opacity="0.18"/>
+  <path d="M 500 430 C 495 410 488 388 480 372" stroke="#C9A227" stroke-width="1.2" stroke-linecap="round" opacity="0.3"/>
+
+  <!-- Bottom ornament -->
+  <path d="M 230 545 C 265 535 300 532 335 532 C 365 532 390 535 370 545"
+        stroke="#C9A227" stroke-width="0.8" stroke-linecap="round" opacity="0.25"/>
+</svg>
